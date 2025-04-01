@@ -1,8 +1,7 @@
 <?php
 
-
+use App\Livewire\Auth\Login\Cliente as Login;
 use App\Livewire\Cliente\Create;
-use Illuminate\Auth\Events\Login;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/create/cliente', Create::class);
