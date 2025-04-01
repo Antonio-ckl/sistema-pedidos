@@ -42,6 +42,6 @@ public function login(){
 }
     public function render()
     {
-        return view('livewire.auth.login.cliente');
+        return view('livewire.auth.entrar');
     }
 }
