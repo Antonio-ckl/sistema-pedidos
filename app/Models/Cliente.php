@@ -14,6 +14,7 @@ class Cliente extends Model
         "telefone",
         "cpf",
         "email",
-        "password"
+        "password",
+        "user_id"
     ];
 }
